@@ -1,4 +1,6 @@
 # Logs
+*.js
+*.map
 logs
 *.log
 npm-debug.log*

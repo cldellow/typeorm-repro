@@ -1,0 +1,41 @@
+{
+  "name": "typeorm-typescript-example",
+  "version": "0.0.1",
+  "description": "Example how to use TypeORM with TypeScript.",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Umed Khudoiberdiev",
+    "email": "pleerock.me@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typeorm/typescript-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/typeorm/typescript-example/issues"
+  },
+  "tags": [
+    "orm",
+    "typescript",
+    "typescript-orm",
+    "typeorm-sample",
+    "typeorm-example"
+  ],
+  "devDependencies": {
+    "@types/node": "^9.6.5",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "nanoid": "^2.1.11",
+    "pg": "^8.2.1",
+    "reflect-metadata": "^0.1.12",
+    "tsc-watch": "^4.2.9",
+    "typeorm": "^0.2.26"
+  },
+  "scripts": {
+    "start": "tsc && node src/index.js",
+    "typeorm": "./node_modules/.bin/typeorm "
+  }
+}
